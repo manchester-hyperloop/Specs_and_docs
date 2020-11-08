@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage[utf8x]{inputenc}
+
+\title{Hyperloop Manchester Specifications, Architecture, System Design and Testing Procedures}
+\author{Harry O'Brien, Lead Developer \& Head of Electronics}
+
+\usepackage{graphicx} % To include images in the document
+
+\setlength{\parindent}{0em} % No indent on new paragraph
+\setlength{\parskip}{1em} % One line skipped on new paragraph
+
+\begin{document}
+
+\maketitle
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.2]{./images/hyperloop_logo}
+\end{figure}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+This document outlines the structure for Hyperloop Manchester's digital components through increasing levels of detail starting with a list of specifications, to listing, all required classes, methods, functions, variables and the details of how sub-modules may interface between each other.
+
+If this document needs to be modified, please do so through a merge request on gitlab.
+
+\include{Specifications}
+
+\include{System_Architecture}
+
+\include{System_Design}
+
+\include{Testing}
+
+\section{To Do}
+To-do list for this document:
+\begin{enumerate}
+    \item Convert flow diagrams from images into compiled Latex
+    \item Build out class diagrams
+    \item Create architecture for O-Droid device
+    \item Create class diagrams for O-Droid
+    \item rewrite testing to make more sense in this specific application
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,60 @@
+\section{Specifications}
+The following specifications are the most basic requirements of what the Hyperloop pod must do. Here we set out everything that relates to the software and electronics.
+
+
+\subsection{Sensing}
+\begin{enumerate}
+    \item The system must be able to know its location (relative to the length of the Hyperloop track) with a tolerance of less than 0.2m.
+    \item The system must be able to know its distance from the rails with a tolerance of less than 1mm.
+    \item The system must be able to validate that a sensor is alive and performing as intended.
+    \item The system must be able to show the properties and status from any selected sensor.
+    \item The system must be able to show, in real time, readings from any selected sensor.
+    \item The System must be able to detect and try to correct any erroneous sensor readings.
+\end{enumerate}
+
+\subsection{Dynamics}
+\begin{enumerate}
+    \item The system must be able to dynamically brake depending on its environment and current location in order to maintain control.
+    \item The system must accelerate depending on its environment and current location so that the highest possible speed is achieved.
+    \item The system must be able to perform an emergency stop when requested.
+    \item The system must be able to reach and maintain a selected speed quickly and reliably.
+    \item 
+\end{enumerate}
+
+\subsection{Communication}
+\begin{enumerate}
+    \item The system must be able to perform wireless communication with an external device.
+    \item The system must have some form of remotely-connected GUI that allows users to modify internal system settings.
+\end{enumerate}
+
+\subsection{Navigation}
+\begin{enumerate}
+    \item The pod must be able to travel to a given location on the Hyperloop track unsupervised and arrive safely at its destination.c+
+\end{enumerate}
+
+\subsection{Logging}
+\begin{enumerate}
+    \item The system must log all key events such that simulated replay is possible.
+    \item Log when and why a process exits.
+    \item Log when and how long it took for a given process to start up.
+    \item Log notable events during the operation of the software.
+    \item Regularly log sensor data at a rate of 10 Hz.
+The user must be able to easily retrieve the logs
+The format of all logged message must be uniform to allow the user to easily read the log
+Logged data must actually be recorded
+Sensitive data must only be logged securely
+\end{enumerate}
+
+\subsection{Remote Access}
+\begin{enumerate}
+    \item The system must be able to receive new firmware and software over the air.
+    \item The system must be able to read and write settings to a permanent location so that any changes can be recovered on system restart.
+    \item The system must maintain a constant state between all GUIs that are connected simultaneously
+    \item The system must continue stop if a user unexpectedly disconnects
+\end{enumerate}
+
+\subsection{System Reliability}
+\begin{enumerate}
+    \item All services must be constantly up - any abnormal exits from a program must be logged and restarted.
+    \item The system must recover from a misbehaviour in the software/hardware.
+\end{enumerate}
