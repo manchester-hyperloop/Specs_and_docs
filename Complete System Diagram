@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T11:06:02.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="7OAM1lraOqKZpwpV1Jzg" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T12:01:11.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="dW0TIagy-RKa8gwZB9Lo" version="14.0.1" type="github">
   <diagram id="C70-m-Fsu3cFyVD1XROq" name="Page-1">
     <mxGraphModel dx="3697" dy="3754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry x="810" y="293" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="56nGWSMt2Xg34sXn3Y5_-14" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=110;tabHeight=20;tabPosition=left;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="-210" width="400" height="440" as="geometry" />
+          <mxGeometry x="340" y="-210" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="56nGWSMt2Xg34sXn3Y5_-16" value="Wheel monitoring" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="340" y="-210" width="110" height="20" as="geometry" />
